@@ -1,0 +1,81 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #2a5d34;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #2a5d34;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Header */
+.site-header {
+  background: #2a5d34;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header nav a {
+  margin-left: 15px;
+  color: white;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') center/cover;
+  color: white;
+}
+
+/* Trails */
+.trails-section {
+  padding: 20px;
+}
+
+.trail-card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+/* Forms */
+.form-section {
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #2a5d34;
+  color: white;
+  margin-top: 30px;
+}
