@@ -1,82 +1,10 @@
-/* GLOBAL */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f2f5f1;
-  color: #1f2d1f;
-}
-
-a {
-  text-decoration: none;
-  color: #2e6b3f;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background: #2e6b3f;
-  color: white;
-  border-radius: 6px;
-  font-weight: bold;
-  margin-top: 15px;
-}
-
-/* HEADER */
-.site-header {
-  background: #2e6b3f;
-  color: white;
-  padding: 18px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.site-header nav a {
-  margin-left: 20px;
-  color: white;
-  font-weight: bold;
-}
-
-.active {
-  text-decoration: underline;
-}
-
-/* HERO SECTION */
+/*HERO SECTION*/
 .hero {
   padding: 120px 20px;
   text-align: center;
   color: white;
-  background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee') center/cover no-repeat;
   background-attachment: fixed;
-  box-shadow: inset 0 0 80 rgba(0,0,0,0.5);
-}
-
-.hero h2 {
-  font-size: 42px;
-  margin-bottom: 10px;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
-}
-
-/* TRAILS PAGE */
-.trails-section {
-  padding: 30px;
-}
-
-.trail-card {
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  border-left: 6px solid #2e6b3f;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #2e6b3f;
-  color: white;
-  margin-top: 40px;
+  box-shadow: inset 0 0 90px rgba(0, 0, 0, 0.4);
 }
 
